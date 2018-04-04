@@ -1,13 +1,13 @@
 # Secure Multiplication for Bitslice Higher-Order Masking
 
-This repository provides some material related to the article <a href="https://eprint.iacr.org/complete/">Secure Multiplication for Bitslice Higher-Order Masking</a> published at <a href="https://www.cosade.org/">COSADE 2018</a>. The repository includes the source codes of the multiplication schemes optimised in ARMv7 assembly as depicted in the <a href="https://eprint.iacr.org/2018/315.pdf">paper</a>. 
+This repository provides some material related to the article  <a href="https://eprint.iacr.org/2018/315.pdf">Secure Multiplication for Bitslice Higher-Order Masking</a> published at <a href="https://www.cosade.org/">COSADE 2018</a>. The repository includes the source codes of the multiplication schemes optimised in ARMv7 assembly as depicted in the paper. 
 
 ## Authors
 
 * Dahmun Goudarzi ([CryptoExperts](https://www.cryptoexperts.com)) 
-* Anthony Journault ([UCL-CryptoGroup] (https://uclouvain.be/crypto/))
+* Anthony Journault (<a href="https://uclouvain.be/crypto/">UCL-CryptoGroup</a>)
 * Matthieu Rivain ([CryptoExperts](https://www.cryptoexperts.com)) 
-* François-Xavier Standaert ([UCL-CryptoGroup] (https://uclouvain.be/crypto/))
+* François-Xavier Standaert (<a href="https://uclouvain.be/crypto/">UCL-CryptoGroup</a>)
 
 ## Copyright and License
 
@@ -51,8 +51,8 @@ License <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License#Versio
 * **main.c**: Main file containing function to set up shares/unmasked shares according to mode chosen and testing the correctness.
 
 ## Parameters
-* **MASKING_ORDER**: sets the masking order. Possible values lies in $\{2,4,8,16,32\}$
-* **NB\_ELM\_PBM**: sets the number of elements per register in the PBM type multiplications. It is defined as $\frac{32}{MASKING\_ORDER}$ (needs no modification). 
+* **MASKING_ORDER**: sets the masking order. Possible values lies in {2,4,8,16,32}
+* **NB\_ELM\_PBM**: sets the number of elements per register in the PBM type multiplications. It is defined as 32/MASKING\_ORDER (needs no modification). 
 * **MODE**: sets the mode of multiplication or refresh to be tested by the main. The possible values are the different multiplications/refreshes defined in the above files. In other words, it can be equal to:
 	* ISW
 	* ISW_UNROLLED
