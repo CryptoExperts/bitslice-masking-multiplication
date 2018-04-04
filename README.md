@@ -32,7 +32,7 @@ License <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License#Versio
  * **5\_isw_refresh.s**: ISW refresh.
  * **5\_bdfgss_refresh.s**: BDFGSS refresh.
  * **random.s**: random generation.
- * **wrapper.s**: ARMv7 assembly source code that call the multiplication according to the parameters in parameter.h.
+ * **wrapper.s**: ARMv7 assembly source code that calls the multiplications according to the parameters in parameter.h.
 
 ### Header file:
 
