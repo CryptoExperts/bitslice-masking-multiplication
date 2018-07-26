@@ -14,7 +14,7 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
  *
- * Authors: Dahmun Goudarzi, Anthony Journaul, Matthieu Rivain and François-
+ * Authors: Dahmun Goudarzi, Anthony Journault, Matthieu Rivain and François-
  * Xavier Standaert 
  *
  */
@@ -79,5 +79,5 @@ loop_sleep SETA loop_sleep+1
     ENDIF
     
     AREA    random_table, DATA, READONLY
-RNGReg
+RNGTab
     DCW 0x4461,0x686D,0x756E,0x2047,0x6f75,0x6461,0x727a,0x6920
